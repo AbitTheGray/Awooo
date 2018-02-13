@@ -1,0 +1,21 @@
+﻿<Window x:Class="Awooo.AwoooInProgress"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Awooo"
+        mc:Ignorable="d"
+        Title="{DynamicResource window_title}" Height="219.91" Width="300" Closed="Window_Closed" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button_ok" Content="{DynamicResource button_ok}" Grid.Row="2" Click="button_ok_Click"/>
+        <Label x:Name="label" Content="{DynamicResource label_content}" Margin="0" Grid.Row="1" HorizontalContentAlignment="Center" VerticalAlignment="Center"/>
+        <Label x:Name="label_title" Content="{DynamicResource label_title}" Margin="0" VerticalAlignment="Top" Grid.Row="1" RenderTransformOrigin="0.729,-0.417" HorizontalContentAlignment="Center" FontSize="24"/>
+
+    </Grid>
+</Window>

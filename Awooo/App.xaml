@@ -1,0 +1,29 @@
+﻿<Application
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Awooo"
+             xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Awooo.App"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <System:String x:Key="button_awooo">Awooo</System:String>
+        
+        <System:String x:Key="label_ready">Click to start a howl</System:String>
+        <System:String x:Key="label_wip">Awoooing...</System:String>
+
+
+        <System:String x:Key="label_progress_0">Ready</System:String>
+        <System:String x:Key="label_progress_1">Initializing...</System:String>
+        <System:String x:Key="label_progress_2">Loading waffs...</System:String>
+        <System:String x:Key="label_progress_3">Disabling fines...</System:String>
+        <System:String x:Key="label_progress_4">*inhales*</System:String>
+        <System:String x:Key="label_progress_5">Awooooooooo!</System:String>
+        
+        <System:String x:Key="window_title">Awooo!</System:String>
+
+        <System:String x:Key="button_ok">OK</System:String>
+        <System:String x:Key="label_title">Awoooooo!</System:String>
+        <System:String x:Key="label_content">Awooooooooo...</System:String>
+
+    </Application.Resources>
+</Application>
